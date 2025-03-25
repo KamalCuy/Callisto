@@ -1,0 +1,8 @@
+name: "callisto"
+displayName: "Callisto"
+author: Kamal
+description: "A very informative description."
+version: "1.0"
+minGameVersion: "146"
+dependencies: [ ]
+hidden: false

@@ -1,0 +1,38 @@
+//Turret Attributes
+type: ItemTurret
+name: Torch
+size: 3
+health: 1000
+liquidCapacity: 1000
+//Shooting properties
+range: 160
+shake: 5
+rotateSpeed: 10
+recoil: 5
+Shoot: {
+  type: ShootSpread
+  shots: 3
+  spread: 20
+}
+//  Ammo types
+ammoTypes: {
+  thorium: {
+    type: ShrapnelBulletType,
+    length: 138,
+    damage: 325,
+    ammoMultiplier: 5,
+    width: 18,
+    toColor: ec6fff,
+    shootEffect: thoriumShoot,
+    smokeEffect: thoriumShoot
+  }
+}
+//  Consume(liquid for booster, or need a power)
+consumes: {
+  liquids: {
+    liquid: hydrogen
+    amount: 1
+    optional: true  //optional means that the turret will still function without this liquid
+    booster: true   //booster depends on liquid temperature, heatCapacity, and flammability
+  }
+}

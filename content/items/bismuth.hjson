@@ -1,0 +1,11 @@
+type: material,
+name: Bismuth,
+description: A beutiful metal with a rainbow-like color.,
+cost: 1,
+hiddenOnPlanets: [ 
+    serpulo
+],
+flammability: 1,
+radioactivity: 0,
+explosiveness: 1,
+color: ffcd66

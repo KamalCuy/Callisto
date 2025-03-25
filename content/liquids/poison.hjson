@@ -1,0 +1,8 @@
+name: poison
+description: A deadly liquid that can kill any living being.
+temperature: 0.55
+flammability: 0
+viscosity: 0.55
+heatCapacity: 0
+explosiveness: 0
+color: 1df903
