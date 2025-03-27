@@ -35,4 +35,5 @@ consumes: {
   }
 }
 // Other
+category: turret
 BuildVisibility: sandboxOnly
